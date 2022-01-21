@@ -1,0 +1,42 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  padding: 1rem;
+  background-color: #dfdfdf;
+  width: 40%;
+  border-radius: 4px;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form div label {
+  margin-bottom: 0.5rem;
+}
+form div input {
+  margin-bottom: 1rem;
+  padding: 6px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 6px;
+  width: 30%;
+  margin: 0px auto;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: mediumseagreen;
+  color: white;
+}
+button:hover {
+  background-color: green;
+}
